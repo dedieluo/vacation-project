@@ -1,0 +1,139 @@
+.VacationCard {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    padding: 40px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.334);
+}
+
+ .imageCard > img {
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease-in-out;
+    display: inline-block;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.cardVacation {
+    display: flex;
+    background-color: #EEEEEE;
+    flex-direction: column;
+    height: auto;
+    width: 310px;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+.cardVacation button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: transparent;
+    border: none;
+    color: #ccc;
+    z-index: 1;
+}
+
+.cardVacation button.liked {
+    color: #ff6666;
+}
+
+.likeButton {
+    border: none;
+}
+
+.description {
+    padding: 5px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    white-space: pre-wrap;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 4;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-align: center;
+    width: 100%;
+}
+
+.destination {
+    font-weight: bolder;
+    width: 100%;
+    color: #381D2A;
+
+}
+
+.date {
+    font-weight: 600;
+    width: 100%;
+}
+
+.price {
+    background-color: #BB8588;
+    width: 100%;
+    font-weight: 600;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+.deleteVacation button {
+    display: flex;
+    position: absolute;
+    right: 220px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: medium;
+    background-color: rgba(128, 128, 128, 0.774);
+    border-radius: 20px;
+    width: 80px;
+    margin-top: 5px;
+    color: black;
+    font-weight: 500;
+}
+
+.EditVacation button {
+    display: flex;
+    position: absolute;
+    right: 130px;
+    justify-content: center;
+    gap: 5px;
+    font-size: medium;
+    background-color: rgba(128, 128, 128, 0.774);
+    border-radius: 20px;
+    width: 80px;
+    margin-top: 5px;
+    color: black;
+    font-weight: 500;
+    align-items: center;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: medium;
+    background-color: rgba(128, 128, 128, 0.774);
+    border-radius: 20px;
+    width: 80px;
+    margin-top: 5px;
+}
+
+.like {
+    color: black;
+    font-weight: 500;
+}

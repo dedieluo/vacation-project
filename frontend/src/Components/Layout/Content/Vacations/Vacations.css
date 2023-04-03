@@ -1,0 +1,90 @@
+.Vacations {
+	height: 100%;
+	width: 100%;
+	place-items: center;
+	padding: 40px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.334);
+	background-color: #D4D6B9;
+
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	gap: 100px;
+
+}
+
+.filter-button {
+	background-color: transparent;
+	border: 3px solid #ccc;
+	border-radius: 8px;
+	margin: 5px;
+	padding: 8px 16px;
+	font-size: 17px;
+	cursor: pointer;
+}
+
+.button-active {
+	border: 5px solid #03081c;
+}
+
+.filter-button:hover {
+	border-color: #0309208e
+}
+
+.vacation-container {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	justify-items: center;
+}
+
+.addButtonCountainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.addButtonCountainer :hover{
+	color: #bb8588
+
+}
+
+
+.addButton {
+	display: flex;
+	width: 200px;
+	height: 40px;
+	border-radius: 20px;
+	align-items: center;
+	justify-content: center;
+	background-color: #54414E;
+	color: aliceblue;
+	font-size: large;
+	font-weight: 600;
+	margin-bottom: 15px;
+
+}
+
+.countVacations {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+.pagination {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.loading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: larger;
+	font-weight: 800;
+}
